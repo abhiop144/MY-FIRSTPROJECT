@@ -145,8 +145,8 @@ Invalid Input: The main menu was tested by entering a choice of 8, which correct
         print("  d. Cosecant")
         print("  e. secant")
         print("  f. cotangent")
-        print("  g. Back to main menu")
-        trig_choice = input("  Enter trig choice (a/b/c/d/e/f/g):--")
+        
+        trig_choice = input("  Enter trig choice (a/b/c/d/e/f):--")
         angle_degrees = int(input("Enter the Value of Angle:--\t"))
         angle_radians = math.radians(angle_degrees)
         if trig_choice=="a":
